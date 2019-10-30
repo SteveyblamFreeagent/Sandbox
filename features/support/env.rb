@@ -5,6 +5,11 @@
 # files.
 
 require 'cucumber/rails'
+require 'capybara'
+require 'capybara/cucumber'
+require 'capybara/rspec'
+require 'selenium-webdriver'
+require 'site_prism'
 
 # frozen_string_literal: true
 
