@@ -16,7 +16,9 @@
         <td><%= example.name %></td>
         <td><%= link_to 'Show', example %></td>
         <td><%= link_to 'Edit', edit_example_path(example) %></td>
-        <td><%= link_to 'Destroy', example, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td>
+          <%= link_to 'Destroy', example, method: :delete, data: { confirm: 'Are you sure?' }, class: 'destroy_button', id: "destroy_example_#{example.id}" %>
+        </td>
       </tr>
     <% end %>
   </tbody>
