@@ -15,6 +15,12 @@ bundle install
 bundle exec rails s
 ```
 
+You can then access it at:
+
+```
+http://localhost:3000
+```
+
 ## Examples
 
 ### Cucumber and Site Prism
