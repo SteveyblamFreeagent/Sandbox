@@ -61,6 +61,14 @@ class ExamplesController < ApplicationController
     end
   end
 
+  def create
+      /example/1/emails POST
+  end
+
+  def destroy
+
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_example
